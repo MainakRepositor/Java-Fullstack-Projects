@@ -1,0 +1,4 @@
+insert into question values(3,'which packageis to import to use servlets','Servlets','java.servlet','java.servlet.http','java.util','none','java.servlet');
+drop table question
+create table question(qno int,qname varchar(50),topic varchar(50),op1 varchar(50),op2 varchar(50),op3 varchar(50),op4 varchar(50),ans varchar(50))
+insert into question values(1,'what is a servlet','Servlets','it is a server side applet','it is a server program','it is an applet','none','it is a server program')
